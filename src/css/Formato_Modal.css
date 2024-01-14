@@ -1,0 +1,62 @@
+.modal-content {
+  margin-top: 8vw;
+  color: black;
+}
+
+/*Header*/
+.h4_titulo_Modal_idioma {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 2vw;
+  color: black;
+}
+
+.p_modal_idioma {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 1.5vw;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.p_modal_idioma_header {
+  font-size: 1.7vw;
+}
+
+/*Main*/
+.btn_drop_Idioma {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 0.1vw solid #d6675d;
+  padding: 0.5vw;
+}
+
+.dropdown-item-li a {
+  font-size: 1.5vw;
+}
+
+.dropdown-item-li {
+  margin-left: 0.5vw;
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.dropdown-item-a {
+  padding-left: 0vw;
+}
+
+.svg_envio {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+/*FOOTER*/
+.Boton_cerrar {
+  background-color: #d6675d;
+}
+
+.btn-close {
+  display: none;
+}

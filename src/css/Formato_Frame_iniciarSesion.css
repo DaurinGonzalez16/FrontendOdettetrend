@@ -1,0 +1,182 @@
+.p_iniciarsesion {
+  font-family: "Alumni Sans", sans-serif;
+  text-align: center;
+  font-size: 8vw;
+  font-weight: bolder;
+  color: #ca3838;
+}
+
+.p_mensaje_listo {
+  font-size: 5vw;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+.p_label {
+  font-family: "Alumni Sans", sans-serif;
+  margin-left: 2vw;
+  font-size: 6vw;
+  color: black;
+  margin-bottom: 0vw;
+}
+
+.text_input {
+  margin-left: 2vw;
+  border: 0.1vw solid #ca3838;
+  width: 95vw;
+}
+
+.botoncontinuar {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 5.5vw;
+  font-weight: bolder;
+  width: 100%;
+  border: none;
+  margin-top: 5vw;
+  padding: 1vw;
+  background-color: #ca3838;
+  color: white;
+  text-transform: uppercase;
+}
+
+.botoncontinuargoogle,
+.botoncontinuarfacebook {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 5.5vw;
+  font-weight: bolder;
+  width: 100%;
+  border: none;
+  padding: 1vw;
+  text-transform: uppercase;
+  margin-bottom: 5vw;
+  border: 0.1vw solid black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.google {
+  color: brown;
+}
+
+.facebook {
+  color: blue;
+}
+
+.div_hr {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 7vw;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.div_hr p {
+  margin: 0vw;
+}
+
+.hr_iniciarsesion {
+  width: 45%;
+  margin-left: 2vw;
+}
+
+@media (min-width: 768px) {
+  input {
+    padding: 2vw;
+    border-radius: 1vw;
+  }
+
+  .botoncontinuar {
+    margin-bottom: 5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .p_iniciarsesion {
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  .p_label {
+    margin-left: 30vw;
+    font-size: 1.8vw;
+    text-transform: uppercase;
+  }
+
+  .text_input {
+    margin-left: 30vw;
+    border: 0.1vw solid #ca3838;
+    width: 43vw;
+    height: 3vw;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 1.8vw;
+  }
+
+  .botoncontinuar {
+    margin-left: 30vw;
+    font-size: 1.8vw;
+    width: 43vw;
+    margin-top: 2.5vw;
+    border-radius: 0.5vw;
+    padding: 0.1vw;
+    border: 0.1vw solid black;
+  }
+
+  .botoncontinuargoogle,
+  .botoncontinuarfacebook {
+    margin-left: 30vw;
+    font-size: 1.8vw;
+    width: 43vw;
+    border: none;
+    padding: 0.1vw;
+    margin-bottom: 1vw;
+    border: 0.1vw solid black;
+    gap: 1vw;
+  }
+
+  .botoncontinuargoogle {
+    margin-top: 0vw;
+    border-radius: 0.5vw;
+  }
+
+  .div_hr {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 3vw;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+  }
+
+  .div_hr p {
+    margin: 0vw;
+  }
+
+  .hr_iniciarsesion {
+    width: 20%;
+    margin-left: 0vw;
+  }
+
+  .hr_iniciarsesion_1 {
+    margin-left: 30vw;
+  }
+
+  .botoncontinuarfacebook {
+    margin-bottom: 8vw;
+    border-radius: 0.5vw;
+  }
+
+  input {
+    text-transform: capitalize;
+  }
+
+  .p_mensaje_listo {
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 2vw;
+  }
+}

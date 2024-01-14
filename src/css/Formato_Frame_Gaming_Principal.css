@@ -1,0 +1,484 @@
+/*DIV OCULTOS*/
+.MasVendidoPC {
+  display: none;
+}
+
+/*MAIN GENERAL*/
+main {
+  margin-top: 7vw;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+/*NAVBAR*/
+.OdetteTrendFrame2 {
+  font-family: "Alex Brush", cursive;
+  font-size: 6.5vw;
+}
+
+.navbar_2 {
+  background-color: #0f657b;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.boton_navbar2 {
+  color: white;
+  background-color: #009fbd;
+  border-color: white;
+}
+
+.boton_navbar2:hover {
+  background-color: white;
+  color: #0f657b;
+  border-color: black;
+}
+
+.nav-linkFrame2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5.5vw;
+  gap: 2vw;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.iconoFrame2 {
+  font-size: 7.2vw;
+  color: #0f657b;
+}
+
+/*NABAR 2*/
+.Nav_Gaming {
+  background-color: #009fbd;
+}
+
+.icon_categoria_gaming {
+  color: #009fbd;
+}
+
+/*Main 1 - Zona Tecnologica*/
+.section1_maingaming {
+  background-image: url("/src/Img/img_Frame_Zona_Gaming/ZonaGamer.webp");
+  height: 24vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 6vw;
+}
+
+.contenedor_img {
+  position: relative;
+  left: 16vw;
+  top: 0.2vw;
+  color: white;
+  font-weight: bold;
+  font-size: 7.2vw;
+  display: flex;
+  align-items: center;
+  gap: 6vw;
+}
+
+.icon_img_zonaGaming {
+  font-size: 7vw;
+  background-color: none;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.span_zona_tecnologia {
+  padding: 0vw 12vw;
+  border-radius: 1.5vw;
+}
+
+/*Main 2 - OFERTAS - Cartas*/
+.contenedorcarta {
+  margin-top: 5vw;
+}
+
+.titulocard {
+  text-transform: capitalize;
+  font-size: 5vw;
+  color: black;
+  margin-bottom: 0vw;
+}
+
+.card-text {
+  font-size: 4.5vw;
+}
+
+.cantidad {
+  font-weight: bold;
+  color: black;
+  font-size: 4.5vw;
+}
+
+.oferta {
+  color: brown;
+  font-weight: bold;
+  font-size: 4.5vw;
+  margin-bottom: 0vw;
+}
+
+.contenedorHijo_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vw;
+  color: black;
+  margin-bottom: 5vw;
+}
+
+.desplazarofertas {
+  display: inline-flex;
+  flex-wrap: unset;
+}
+
+.desplazar2 {
+  margin: 0 auto;
+  overflow-x: scroll;
+}
+
+/*ESTILOS A TODAS LAS CARTAS*/
+.carta-img-tamaño {
+  height: 40vw;
+}
+
+.tablet1_contenedor {
+  background-color: #009dbd4c;
+  width: 45vw;
+  height: 73vw;
+}
+
+.inf_tablet {
+  text-align: center;
+  margin-top: 1.5vw;
+}
+
+.sinoferta {
+  background-color: #009dbd4c;
+  width: 45vw;
+  height: 68vw;
+}
+
+.h2_tablet,
+.h2_Accesorios {
+  text-align: center;
+  font-size: 8vw;
+  margin-top: 5vw;
+}
+
+.botonCard {
+  margin-top: 0.1vw;
+  background-color: #ffffff;
+  padding: 0.8vw 9vw;
+  color: black;
+  font-weight: bold;
+}
+
+.botonCard:hover {
+  background-color: #009fbd;
+}
+
+/*MAS VENDIDO QUE SE VISUALIZA EN PC*/
+.MasVendidoPC {
+  width: 100%;
+  text-align: justify;
+}
+
+/*MAS VENDIDO QUE SE VISUALIZA EN CELULARES*/
+
+.masvendido {
+  border: none;
+}
+
+.contenedorText_masvendido {
+  text-align: justify;
+  font-weight: bolder;
+  margin-top: 6vw;
+  margin-left: 5vw;
+}
+
+.img-decuento {
+  width: 65vw;
+  height: 50vw;
+  margin: 0 auto;
+}
+
+.Contenedormasvendido {
+  margin-top: 6vw;
+  margin: 0 auto;
+  border: none;
+}
+
+.descuento {
+  background-color: brown;
+  color: white;
+  padding: 1.5vw;
+  border-radius: 1vw;
+  font-size: 4.5vw;
+}
+
+.precio_descuento_red {
+  font-size: 5vw;
+  color: brown;
+  font-weight: bold;
+}
+
+.h3Descuento {
+  margin-top: 3vw;
+}
+
+.botonCard2 {
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+/*FOOTER*/
+.FooterFrameGaming {
+  padding-top: 5vw;
+  background-color: #b3e2eb;
+}
+
+.BackgroundFooter {
+  padding-top: 5vw;
+  background-color: #0f657b;
+}
+
+.Footer_Svg_Color_Gaming {
+  color: #0f657b;
+}
+
+.Redes_Sociales_Color_Gaming {
+  color: black;
+}
+
+.footer_color_p_gaming {
+  background-color: white;
+}
+
+@media (min-width: 768px) and (max-width: 912px) {
+  .MasVendidoCelular {
+    margin-left: 6vw;
+  }
+
+  .h2_tablet {
+    font-size: 10vw;
+  }
+
+  .navbar-toggler {
+    font: 2em sans-serif;
+  }
+
+  .nav-linkFrame2 {
+    font-size: 4vw;
+  }
+
+  .form-control {
+    font-size: 4vw;
+    width: 85vw;
+  }
+
+  .boton_navbar {
+    font-size: 3.5vw;
+  }
+
+  .nav-link {
+    height: min-content;
+  }
+
+  .botonCard {
+    font-size: 3.5vw;
+  }
+
+  .h3Descuento {
+    font-size: 6vw;
+  }
+}
+
+@media (min-width: 540px) {
+  .form-control {
+    font-size: 4vw;
+    width: 80vw;
+  }
+  .nav-linkFrame2 {
+    font-size: 4vw;
+  }
+  .boton_navbar {
+    font-size: 3.5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin-top: 5vw;
+  }
+
+  .inf_tablet {
+    display: block;
+  }
+
+  .MasVendidoPC {
+    display: block;
+  }
+
+  .OdetteTrendFrame2 {
+    font-size: 2.2vw;
+  }
+
+  .SoloCelulares {
+    display: none;
+  }
+
+  .nav-linkFrame2 {
+    padding: 1vw 0vw;
+    background-color: rgba(255, 255, 255, 0);
+    width: auto;
+    height: auto;
+  }
+
+  .nav-linkFrame2 svg {
+    font-size: 2.5vw;
+  }
+
+  .nav-linkFrame2 svg:hover {
+    transform: scale(1.1);
+  }
+
+  .iconoFrame2 {
+    font-size: 2.8vw;
+    color: white;
+  }
+
+  .navbar-nav2 {
+    margin-left: 10vw;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-control {
+    font-size: 1.5vw;
+    width: 35vw;
+    height: min-content;
+  }
+
+  .boton_navbar2 {
+    font-size: 1.5vw;
+    height: min-content;
+  }
+
+  .texto-navbar {
+    display: none;
+  }
+
+  /* MAIN ZONA GAMING*/
+  .span_zona_tecnologia {
+    text-shadow: 0vw 0.2vw 0.1vw rgba(0, 0, 0, 0.292);
+    font-family: "Alumni Sans", sans-serif;
+  }
+
+  .section1_maingaming {
+    width: 100vw;
+    height: 15vw;
+    filter: drop-shadow(0vw 0.3vw 0.1vw rgba(0, 0, 0, 0.292));
+  }
+
+  .contenedor_img {
+    left: 20vw;
+    top: 0.2vw;
+    font-size: 6vw;
+  }
+
+  .contenedor_img a {
+    all: unset;
+  }
+
+  .icon_img_zonaGaming {
+    font-size: 5vw;
+    opacity: 0.7;
+  }
+
+  .MasVendidoPC {
+    padding: 1vw;
+    margin: auto;
+  }
+
+  /*Main  - OFERTAS - Cartas*/
+  .contenedorcarta {
+    margin-top: 5vw;
+  }
+
+  .titulocard {
+    font-size: 2vw;
+  }
+
+  .card-text {
+    font-size: 1.8vw;
+  }
+
+  .cantidad {
+    font-size: 1.8vw;
+  }
+
+  .oferta {
+    font-weight: bold;
+    font-size: 1.8vw;
+  }
+
+  .contenedorHijo_cards {
+    gap: 1.8vw;
+    margin-bottom: 0.5vw;
+  }
+
+  /*ESTILOS A TODAS LAS CARTAS*/
+  .carta-img-tamaño {
+    height: 14vw;
+  }
+
+  .tablet1_contenedor,
+  .sinoferta {
+    background-color: #009dbd4c;
+    width: 16vw;
+    height: 26vw;
+    margin-bottom: 2vw;
+  }
+
+  .sinoferta {
+    height: 24.5vw;
+  }
+
+  .inf_tablet {
+    text-align: center;
+  }
+
+  .botonCard {
+    padding: 0.3vw 3vw;
+    color: black;
+    font-weight: bold;
+  }
+
+  .h2_tablet,
+  .h2_Accesorios {
+    text-align: center;
+    font-size: 3.5vw;
+    margin-top: 0vw;
+    color: black;
+  }
+
+  .MasVendidoPC {
+    margin-top: 3vw;
+    background-color: #b3e2eb;
+    margin-bottom: 3vw;
+  }
+
+  .img-carrusel-pc {
+    width: 25vw;
+    height: 19vw;
+  }
+  .img-carrusel-pc {
+    margin-left: 37vw;
+    margin-bottom: 8vw;
+  }
+
+  .BackgroundFooter {
+    padding: 0vw;
+  }
+}

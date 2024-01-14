@@ -1,0 +1,475 @@
+/*DISPLAYS NONE*/
+.Referencias_Producto_Pc {
+  display: none;
+}
+
+.div_mini_imagenes {
+  margin-left: 2vw;
+  display: flex;
+  width: 100%;
+  gap: 1vw;
+  overflow-x: scroll;
+}
+
+.mini_img_seleccion {
+  margin-bottom: 2vw;
+}
+
+.col-1-seleccion-ropa {
+  display: flex;
+  gap: 2vw;
+}
+
+.img_principal_seleccion_ropa {
+  height: 59vw;
+  display: none;
+}
+
+/*Columna 2*/
+.col-2-seleccion-ropa {
+  width: 100%;
+}
+
+.titulo_selecion_ropa {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 8vw;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  color: black;
+}
+
+.div_valoracion {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 6vw;
+  margin-left: 2vw;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.div_ordenalo_ropa {
+  margin-left: 2vw;
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  color: black;
+  font-size: 5vw;
+}
+
+.estrellas {
+  color: #ca3838;
+  font-size: 6vw;
+}
+
+.span_ordenalo_ropa {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 6vw;
+  color: black;
+}
+
+.colores_d {
+  margin-left: 2vw;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 6vw;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.circulos_col {
+  display: flex;
+  gap: 1.5vw;
+}
+
+.circulo_color_seleccion {
+  filter: drop-shadow(0vw 0.2vw 1vw black);
+}
+
+.tallas_dropdown {
+  margin-left: 2vw;
+  font-family: "Alumni Sans", sans-serif;
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+
+.span_talla {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 6vw;
+  color: black;
+}
+
+.size_moda_seleccion {
+  font-size: 7vw;
+  color: #ca3838;
+  font-weight: bold;
+}
+
+.precio_selecion_ropa {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 9vw;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 2vw;
+  text-decoration: underline;
+  color: #ca3838;
+}
+
+/*REFERENCIAS*/
+.h2_Referencias,
+.p_ofertas_similares {
+  font-family: "Alumni Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ca3838;
+  font-size: 8vw;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.article_valoracion {
+  margin-left: 0vw;
+  padding: 2vw;
+  font-family: "Alumni Sans", sans-serif;
+  color: white;
+  font-size: 6.2vw;
+  background-color: #ca3838;
+}
+
+.div_valoracion2 {
+  align-items: center;
+  display: flex;
+  gap: 1.5vw;
+  font-size: 6vw;
+  color: white;
+}
+
+.h3_valoracion_2 {
+  margin: 0vw;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.estrellas2 {
+  font-size: 5vw;
+  color: white;
+}
+
+.div_valoraciones_check {
+  margin: 0vw;
+  display: flex;
+  gap: 6vw;
+  justify-content: left;
+  font-size: 6vw;
+}
+
+.p_porcentaje {
+  margin-top: 0vw;
+  padding-top: 0vw;
+  text-align: center;
+}
+
+.btn_comentarios {
+  border: none;
+  background-color: #ca3838;
+  color: white;
+  padding: 1.5vw 3vw;
+  margin-top: 3vw;
+  text-align: center;
+  font-size: 5vw;
+  border-radius: 1vw;
+  filter: drop-shadow(0vw 1vw 0.2vw rgba(0, 0, 0, 0.178));
+}
+
+.p_btn_comentarios {
+  text-align: left;
+  margin-left: 2vw;
+  margin-bottom: 3vw;
+}
+
+.div_usuario_fecha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div_usuario_comentario {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  margin: 0vw;
+  padding: 0vw;
+}
+
+.componente_celulares_comentarios {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 5vw;
+  margin: 0vw;
+  padding: 0vw;
+  color: black;
+}
+
+.div_img_bs {
+  display: flex;
+  gap: 5vw;
+}
+
+.img_bs {
+  width: 30%;
+  height: 35vw;
+}
+
+.p_comentario_c {
+  text-align: justify;
+}
+
+.estrellas3 {
+  color: #ca3838;
+  margin: 0vw;
+  padding: 0vw;
+  font-size: 4vw;
+}
+
+@media (min-width: 1024px) {
+  .section1_ropa_selecion {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-bottom: 5vw;
+  }
+
+  .div_mini_imagenes {
+    display: block;
+    width: 19%;
+    gap: 0.1vw;
+    overflow-x: unset;
+  }
+
+  .mini_img_seleccion {
+    margin-bottom: 2vw;
+    height: 7.6vw;
+  }
+
+  .col-1-seleccion-ropa {
+    display: flex;
+    gap: 1vw;
+    width: 37%;
+  }
+
+  .img_principal_seleccion_ropa {
+    width: min-content;
+    height: 36.3vw;
+    display: inline;
+  }
+
+  .img_principal_seleccion_ropa:hover {
+    box-shadow: 0vw 0.2vw 0.1vw #ca3838;
+  }
+
+  .mini_img_seleccion:hover {
+    box-shadow: 0vw 0.2vw 0.1vw #ca3838;
+  }
+
+  /*Columna 2*/
+  .col-2-seleccion-ropa {
+    width: 63%;
+    padding: 0vw 4vw;
+  }
+
+  .titulo_selecion_ropa {
+    font-size: 2.9vw;
+    text-align: left;
+    margin: 0vw;
+  }
+
+  .hr_seleccion_moda_Ropa {
+    margin-top: 0vw;
+  }
+
+  .div_valoracion {
+    font-size: 2vw;
+    margin-left: 0vw;
+    gap: 0.5vw;
+  }
+
+  .div_ordenalo_ropa {
+    margin-left: 0vw;
+    gap: 0.5vw;
+    font-size: 2vw;
+    align-items: center;
+  }
+
+  .estrellas {
+    font-size: 1.8vw;
+    margin-top: -0.5vw;
+  }
+
+  .span_ordenalo_ropa {
+    font-size: 2vw;
+  }
+
+  .colores_d {
+    margin-left: 0vw;
+    font-size: 2vw;
+    gap: 1vw;
+  }
+
+  .circulos_col {
+    gap: 1vw;
+  }
+
+  .circulo_color_seleccion {
+    filter: drop-shadow(0vw 0.1vw 0.1vw black);
+  }
+
+  .tallas_dropdown {
+    margin-left: 0vw;
+    display: flex;
+    gap: 1vw;
+  }
+
+  .span_talla {
+    font-size: 2vw;
+  }
+
+  .size_moda_seleccion {
+    font-size: 2.2vw;
+    color: #ca3838;
+    font-weight: bold;
+  }
+
+  .precio_selecion_ropa {
+    font-size: 3.5vw;
+    margin: 0vw;
+    text-align: left;
+    color: #ca3838;
+  }
+
+  /*REFERENCIAS*/
+  .h2_Referencias,
+  .p_ofertas_similares {
+    font-size: 2.5vw;
+    text-align: left;
+    margin-left: 2vw;
+  }
+
+  .h2_Referencias {
+    margin-top: 3vw;
+  }
+
+  .article_valoracion {
+    display: none;
+  }
+
+  .Referencias_Producto_Pc {
+    display: inline;
+  }
+
+  /*VALORACIONES*/
+  .Referencias_Producto_Pc {
+    font-size: 1.5vw;
+    color: white;
+  }
+
+  .article_Referencias_Producto_Pc {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    background-color: #ca3838;
+    width: max-content;
+    padding: 1.5vw 3vw;
+    filter: drop-shadow(0vw 0.4vw 0.1vw rgba(0, 0, 0, 0.178));
+    border-radius: 1vw;
+  }
+
+  .div_valoracion_media_pc {
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+    padding: 0.1vw 1vw;
+    color: #ca3838;
+    background-color: white;
+    width: min-content;
+    border-radius: 0.5vw;
+  }
+
+  .estrellas2 {
+    color: #ca3838;
+    font-size: 2vw;
+  }
+
+  .div_porcentajes_r_pc {
+    display: flex;
+    gap: 1vw;
+    justify-content: space-around;
+  }
+
+  .div_text_porcentaje {
+    border-left: 0.1vw solid white;
+    border-right: 0.1vw solid white;
+    padding: 0.2vw 5vw;
+  }
+
+  /*BOTON COMENTARIOS*/
+  .p_btn_comentarios {
+    margin-bottom: 2vw;
+  }
+
+  .btn_comentarios {
+    background-color: #ca3838;
+    margin-left: 0vw;
+    padding: 0.5vw 4vw;
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    filter: drop-shadow(0vw 0.5vw 0.2vw rgba(0, 0, 0, 0.178));
+  }
+
+  .div_usuario_fecha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .div_usuario_comentario {
+    display: flex;
+    gap: 0.2vw;
+    align-items: center;
+    margin: 0vw;
+    padding: 0vw;
+  }
+
+  .componente_celulares_comentarios {
+    font-size: 1.5vw;
+    margin: 1vw;
+    padding: 1vw;
+    margin-top: 0vw;
+    margin-left: 3vw;
+  }
+
+  .div_img_bs {
+    display: flex;
+    gap: 1vw;
+  }
+
+  .img_bs {
+    width: 15vw;
+    height: 20vw;
+  }
+
+  .p_comentario_c {
+    text-align: justify;
+  }
+
+  .estrellas_comentarios {
+    font-size: 1.5vw;
+    margin-top: -0.3vw;
+  }
+}

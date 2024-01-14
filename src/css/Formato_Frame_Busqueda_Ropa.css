@@ -1,0 +1,126 @@
+.col_md_auto_busqueda_ropa {
+  width: 40%;
+  margin-right: 0vw;
+  padding: 0vw;
+}
+
+.h2_busqueda_ropa {
+  margin-left: 2vw;
+  margin-bottom: 5vw;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 7vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+.span_resultado_ropa {
+  color: #b22334;
+  text-decoration: underline;
+}
+
+.a_Tarjetas_busqueda_Ropa {
+  text-decoration: none;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.div_contenedor_busqueda_ropa {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  margin-bottom: 5vw;
+}
+
+.card_busqueda {
+  background-color: #b22334;
+  border: 1vw solid #b22334;
+  width: 42vw;
+  height: 75vw;
+  border-radius: 0.1vw;
+  padding: 0.1vw;
+}
+
+.card_busqueda h5 {
+  margin-bottom: 0vw;
+  color: white;
+}
+
+.img_tarjetas_buscar_ropa {
+  border-radius: 0vw;
+}
+
+.card_title_Busquedad {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.precio_title_Busquedad {
+  font-size: 5vw;
+}
+
+.p_validacion_resultado_ropa {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .col_md_auto_busqueda_ropa {
+    width: 17%;
+  }
+
+  .h2_busqueda_ropa {
+    margin-left: 2vw;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+  }
+
+  .a_Tarjetas_busqueda_Ropa {
+    text-decoration: none;
+    font-family: "Alumni Sans", sans-serif;
+    width: min-content;
+  }
+
+  .div_contenedor_busqueda_ropa {
+    display: flex;
+    justify-content: left;
+    margin-left: 2vw;
+    gap: 1.5vw;
+    margin-bottom: 5vw;
+  }
+
+  .card_busqueda {
+    width: 16.2vw;
+    height: 24vw;
+    border: 0.3vw solid #b22334;
+  }
+
+  .card_busqueda:hover {
+    box-shadow: 0vw 0.2vw 0.1vw rgba(0, 0, 0, 0.363);
+  }
+
+  .card_busqueda img {
+    width: 16vw;
+    height: 18vw;
+  }
+
+  .card_busqueda h5 {
+    margin-bottom: 0vw;
+    color: white;
+    font-size: 1.6vw;
+    text-align: center;
+  }
+
+  .card-body-busqueda-ropa {
+    margin-bottom: 0vw;
+    padding-bottom: 0vw;
+  }
+
+  .img_tarjetas_buscar_ropa {
+    border-radius: 0vw;
+    box-shadow: none;
+  }
+
+  .p_validacion_resultado_ropa {
+    text-align: center;
+    font-size: 2vw;
+  }
+}

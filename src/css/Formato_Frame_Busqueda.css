@@ -1,0 +1,153 @@
+main {
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.Result_busqueda {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-size: 6vw;
+  text-align: center;
+}
+
+.Productos_busqueda {
+  color: #c20000;
+}
+
+.hr_busqueda {
+  border: 0.1vw solid black;
+}
+
+/*CONTENEDOR */
+.section_contenedor_busquedad {
+  margin-bottom: 3vw;
+}
+
+/*ESTILOS PARA LA IMAGEN*/
+.article_img_busqueda {
+  width: 35%;
+  padding-right: 0vw;
+  margin-left: 2vw;
+}
+
+.div_imagenBusqueda {
+  margin: 0 auto;
+}
+
+.img_Busqueda {
+  width: 40vw;
+}
+
+/*DETALLES DEL PRODUCTO*/
+.article_detalles_busqueda {
+  width: 63%;
+  padding-left: 4vw;
+  margin-top: 0vw;
+}
+
+.p_nombre_busqueda {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.hr_busquedad {
+  margin: 0vw;
+}
+
+.contenedor_condiciones_busqueda {
+  padding-left: 0vw;
+  font-size: 3.5vw;
+}
+
+.div_p_ordenalo_busqueda {
+  font-size: 3.5vw;
+}
+.div_precio_boton_busqueda,
+.div_p_ordenalo_busqueda,
+.Link_Producto_busqueda {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+
+.div_precio_boton_busqueda {
+  gap: 4vw;
+}
+
+.icono_ordenalo_busqueda {
+  color: #0f657b;
+}
+
+.precio_busqueda {
+  color: #0f657b;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #c20000;
+}
+
+.Link_Producto_busqueda {
+  color: white;
+  background-color: #c20000;
+  border-radius: 1vw;
+  padding: 0vw 1vw;
+  font-size: 3.5vw;
+  text-decoration: none;
+}
+
+@media (min-width: 540px) and (max-width: 912px) {
+  .p_nombre_busqueda {
+    font-size: 4vw;
+  }
+  .precio_busqueda {
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Result_busqueda {
+    font-size: 3.5vw;
+    text-align: left;
+    padding-left: 2vw;
+  }
+
+  /*CONTENEDOR */
+  .section_contenedor_busquedad {
+    margin-bottom: 3vw;
+  }
+
+  /*ESTILOS PARA LA IMAGEN*/
+  .article_img_busqueda {
+    width: 16%;
+  }
+
+  /*DETALLES DEL PRODUCTO*/
+  .article_detalles_busqueda {
+    width: 75%;
+  }
+
+  .p_nombre_busqueda {
+    font-size: 3vw;
+  }
+
+  .contenedor_condiciones_busqueda {
+    font-size: 2vw;
+  }
+
+  .div_p_ordenalo_busqueda {
+    font-size: 2vw;
+  }
+
+  .icono_ordenalo_busqueda {
+    color: #0f657b;
+  }
+
+  .precio_busqueda {
+    font-size: 2vw;
+  }
+
+  .Link_Producto_busqueda {
+    font-size: 1.7vw;
+    border-radius: 0.5vw;
+  }
+}

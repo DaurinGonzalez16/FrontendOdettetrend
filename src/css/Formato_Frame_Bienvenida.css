@@ -1,0 +1,193 @@
+main {
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.div_bienvenida {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.nombre_usuario {
+  text-transform: uppercase;
+}
+
+.div_bienvenido_1 {
+  display: flex;
+  gap: 2vw;
+  font-size: 5vw;
+}
+
+.col-pedidos-abajo {
+  text-align: center;
+  gap: 2vw;
+  display: flex;
+  font-size: 4vw;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.h1_bienvenido {
+  font-size: 10vw;
+  text-align: center;
+  color: #b22334;
+  font-weight: bold;
+  margin-bottom: 0vw;
+}
+
+.p_perfil {
+  font-size: 6vw;
+  color: #b22334;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5vw;
+}
+
+.span_nombre {
+  font-size: 6vw;
+  color: black;
+}
+
+.input_nombre {
+  width: 58vw;
+  box-shadow: 0vw 0.5vw 0.1vw rgba(0, 0, 0, 0.099);
+  border: 0.1vw solid black;
+}
+
+.boton_cambiar_nombre {
+  color: white;
+  background-color: #b22334;
+  border-radius: 2vw;
+  border: none;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.p_mis_pedidos {
+  margin-top: 5vw;
+  font-size: 6vw;
+  color: #b22334;
+  font-weight: bold;
+}
+
+.icon_mis_pedidos {
+  font-size: 6.5vw;
+  color: #b22334;
+}
+
+.col-padre-bienvenidos {
+  border: 0.2vw solid black;
+  max-width: min-content;
+  text-align: center;
+  margin: 5vw auto;
+  margin-top: 5vw;
+  padding: 1.5vw;
+  box-shadow: 0vw 0.4vw 0.5vw rgba(0, 0, 0, 0.164);
+  border-radius: 4vw;
+}
+
+.boton_desconectarse {
+  padding: 1vw 20vw;
+  border-radius: 2.5vw;
+  border: none;
+  background-color: #b22334;
+  color: white;
+  font-size: 5vw;
+}
+
+.div_boton_desconectarse {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vw;
+}
+
+@media (min-width: 912px) {
+  .div_bienvenido_1 {
+    display: flex;
+    font-size: 4vw;
+  }
+
+  .col-pedidos-abajo {
+    font-size: 3.5vw;
+  }
+
+  .span_nombre {
+    font-size: 4vw;
+    color: black;
+  }
+}
+
+.botonesMisPedidos {
+  all: unset;
+}
+
+@media (min-width: 1024px) {
+  .div_bienvenida {
+    gap: 1vw;
+    font-size: 2vw;
+  }
+
+  .col-padre-bienvenidos {
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    margin: 2.5vw auto;
+    box-shadow: 0vw 0.4vw 0.5vw rgba(0, 0, 0, 0.164);
+    padding: 1vw;
+  }
+
+  .col-pedidos-abajo {
+    gap: 2vw;
+    font-size: 1.7vw;
+    font-weight: 500;
+  }
+
+  .h1_bienvenido {
+    font-size: 3vw;
+  }
+
+  .span_nombre {
+    font-size: 1.8vw;
+    color: black;
+    padding-top: 0.5vw;
+  }
+
+  .input_nombre {
+    width: 30vw;
+    font-size: 1.8vw;
+    height: 1vw;
+    padding: 1.8vw;
+  }
+
+  .boton_cambiar_nombre {
+    font-size: 1.8vw;
+  }
+
+  .p_mis_pedidos {
+    margin-top: 2vw;
+    font-size: 2.5vw;
+  }
+
+  .p_perfil {
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+    text-align: justify;
+  }
+
+  .icon_mis_pedidos {
+    font-size: 2.5vw;
+  }
+
+  .boton_desconectarse {
+    margin-bottom: 6vw;
+    padding: 0.5vw 8vw;
+    border-radius: 1vw;
+    font-size: 1.8vw;
+  }
+
+  .div_boton_desconectarse {
+    margin-bottom: 0.1vw;
+    margin: 0 auto;
+  }
+}

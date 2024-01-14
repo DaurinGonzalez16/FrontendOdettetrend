@@ -1,0 +1,407 @@
+/*BOTON BUSCAR*/
+.BackColor {
+  background-color: beige;
+}
+
+.botonbuscar_nav {
+  background-color: #cb6a75;
+}
+
+.nav2_display {
+  display: none;
+}
+
+.nav_ropa_principal {
+  background-color: #b22334;
+}
+
+.nav2_ropa_red {
+  background-color: #b22334ad;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.nav2_items:hover {
+  text-decoration: underline #0f657b;
+  transition: 1s ease-in-out;
+}
+
+.nav2_items {
+  text-decoration: none;
+  color: white;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 5vw;
+  margin-left: 1vw;
+  filter: drop-shadow(0vw 0.3vw 0.4vw rgba(0, 0, 0, 0.292));
+}
+
+.icon_nav_color {
+  color: #b22334;
+}
+
+.section_p {
+  background-image: url("/reactfront/src/Img/img_Frame_Ropa/ImagenModa.webp");
+}
+
+.Contenedor_1 {
+  gap: 9vw;
+  margin-top: -1vw;
+  margin-bottom: 0vw;
+  align-items: center;
+  margin-left: 2vw;
+}
+
+.span_moda_2 {
+  margin-top: 0vw;
+  padding: 0px;
+  padding-left: 13vw;
+  padding-right: 13vw;
+  background-color: #b22334ad;
+}
+
+/*SECTION 1*/
+.contenedor_main1_ropa {
+  gap: 2vw;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.contenedor_main1_ropa img {
+  width: 40vw;
+  height: 50vw;
+}
+
+.div_main1_ropa {
+  background-color: #b22334;
+  width: 42vw;
+  padding: 1vw;
+  margin-bottom: 5vw;
+}
+
+.nombre_producto_main1_Moda {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5vw;
+  margin: 0vw;
+}
+
+.precio_producto_main1_Moda {
+  color: white;
+  text-align: center;
+  text-decoration: underline #0f657b;
+  font-weight: 400;
+  font-size: 4vw;
+}
+
+.Link_Direccionar_ROPA {
+  text-decoration: none;
+}
+
+/* SECTION 2 */
+.section2_ropa {
+  margin-top: 6vw;
+  margin-bottom: 7vw;
+  text-align: center;
+  background-color: #b22334;
+  color: white;
+}
+
+/* SECTION 3 */
+.section3_ropa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  margin-bottom: 6vw;
+}
+
+.article_generadorSection3 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 3vw;
+  background-color: #b22334;
+  border-radius: 25vw;
+  padding: 1.5vw;
+  width: 45%;
+}
+
+.img_GeneradorSection3 {
+  width: 10vw;
+  height: 11vw;
+  border-radius: 30vw;
+}
+
+.h3_section3_tipo {
+  margin: 0vw;
+  color: white;
+}
+
+/*Section 4*/
+.div_odettetrend_ropa {
+  background-color: white;
+  width: min-content;
+  font-size: 5vw;
+  margin: 0 auto;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 1vw;
+}
+
+.a_odettetrend_ropa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  text-decoration: none;
+  color: black;
+}
+
+.section4_ropa {
+  background-color: #b22334;
+  padding: 2vw;
+  margin-bottom: 5vw;
+}
+
+.h2_section4_ropa {
+  text-align: center;
+  color: white;
+  margin: 0vw;
+}
+
+.p_odettetrend_ropa {
+  font-family: "Alex Brush", cursive;
+}
+
+.iphone_icon_section4_ropa {
+  color: #b22334;
+}
+
+/*SECTION 5 - REUTILIZACION */
+.section5_ropa_moda {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5vw;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 5vw;
+}
+
+.article_generadorSection4 {
+  text-align: center;
+}
+
+.img_GeneradorSection4 {
+  width: 40vw;
+  height: 52vw;
+  border: 0.8vw solid #b22334;
+  margin-bottom: 1vw;
+}
+
+.h3_section4_tipo {
+  margin: 0vw;
+  font-size: 4.9vw;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.totalmente_section4_Moda {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline #0f657b;
+  font-size: 3.8vw;
+}
+
+.button_Generador_Section4 {
+  all: unset;
+  padding: 0.3vw 5vw;
+  background-color: #b22334;
+  color: white;
+  font-weight: bold;
+  font-size: 3.5vw;
+}
+
+@media (min-width: 768px) {
+  .icon_img_zonaRopa2 {
+    font-size: 4vw;
+  }
+
+  .contenedor_main1_ropa {
+    margin-left: 0vw;
+    padding-left: 0vw;
+    justify-content: left;
+  }
+  .colArrow {
+    width: 8%;
+  }
+  .section5_ropa {
+    margin-left: 2vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav2_ropa_red {
+    box-shadow: 0vw 0.2vw 0.1vw rgba(0, 0, 0, 0.292);
+  }
+
+  .nav2_items {
+    font-size: 1.8vw;
+  }
+
+  .icon_nav_color {
+    color: white;
+  }
+
+  .CardsNoCelular {
+    display: inline;
+    gap: 2vw;
+  }
+
+  .Contenedor_1 {
+    gap: 8vw;
+    margin-top: 0vw;
+    margin-left: 0vw;
+    margin-bottom: 0vw;
+    padding: 0vw;
+  }
+
+  .span_moda_2 {
+    margin-top: -1vw;
+    padding: 0px;
+    padding-left: 14vw;
+    padding-right: 13vw;
+    background-color: #b22334ad;
+  }
+
+  /*SECTION 1*/
+  .contenedor_main1_ropa {
+    gap: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .contenedor_main1_ropa img {
+    width: 30vw;
+    height: 20vw;
+  }
+
+  .div_main1_ropa {
+    background-color: #b22334;
+    width: 19vw;
+    padding: 0.4vw;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
+    margin-bottom: 1vw;
+  }
+
+  .div_main1_ropa:hover {
+    box-shadow: 0vw 0.3vw 0.1vw rgba(0, 0, 0, 0.363);
+  }
+
+  .nombre_producto_main1_Moda {
+    font-size: 2vw;
+  }
+
+  .precio_producto_main1_Moda {
+    font-size: 2vw;
+  }
+
+  /* SECTION 2 */
+
+  .section2_ropa {
+    padding: 0.7vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+
+  .section2_ropa h2 {
+    margin: 0vw;
+  }
+
+  /* SECTION 3 */
+  .section3_ropa {
+    gap: 1vw;
+    margin-bottom: 3vw;
+  }
+
+  .article_generadorSection3 {
+    gap: 1vw;
+    border-radius: 25vw;
+    padding: 0.5vw;
+    width: 30%;
+  }
+
+  .img_GeneradorSection3 {
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+  }
+
+  .article_generadorSection3:hover {
+    box-shadow: 0vw 0.3vw 0.1vw rgba(0, 0, 0, 0.363);
+  }
+
+  .Link_to_h3_Moda {
+    width: 55%;
+  }
+
+  .h3_section3_tipo {
+    text-align: center;
+  }
+
+  /*Section 4*/
+  .div_odettetrend_ropa {
+    font-size: 2vw;
+    margin: 0 auto;
+  }
+
+  .a_odettetrend_ropa {
+    gap: 0.5vw;
+    text-decoration: none;
+    color: black;
+  }
+
+  .section4_ropa {
+    background-color: #b22334;
+    padding: 1vw;
+    margin-bottom: 3vw;
+  }
+
+  /*SECTION 5 - REUTILIZACION */
+  .section5_ropa_moda {
+    width: 100%;
+    margin: 0vw;
+    margin-bottom: 5vw;
+    justify-content: space-around;
+  }
+
+  .img_GeneradorSection4 {
+    width: 28vw;
+    height: 33vw;
+    border: 0.3vw solid #b22334;
+    margin-bottom: 1vw;
+  }
+
+  .button_Generador_Section4:hover {
+    box-shadow: 0vw 0.2vw 0.1vw rgba(0, 0, 0, 0.363);
+  }
+
+  .h3_section4_tipo {
+    font-size: 2.2vw;
+  }
+
+  .totalmente_section4_Moda {
+    font-size: 2vw;
+  }
+
+  .button_Generador_Section4 {
+    padding: 0.3vw 5vw;
+    font-size: 1.8vw;
+  }
+}

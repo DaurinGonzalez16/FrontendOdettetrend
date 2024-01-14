@@ -1,0 +1,381 @@
+p {
+  font-family: "Alumni Sans", sans-serif;
+  margin-bottom: 0vw;
+}
+
+/*NOMBRE PRODUCTO*/
+.Nombre_Producto {
+  font-size: 10vw;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 5vw;
+  color: black;
+}
+
+.hr_Nombre_Producto {
+  margin-top: 0vw;
+}
+
+.contenedor_condiciones {
+  display: flex;
+  gap: 5vw;
+  padding-left: 3vw;
+  text-align: center;
+  font-size: 7vw;
+  color: black;
+}
+
+.Cantidad {
+  display: none;
+}
+
+.contenedor_condiciones p {
+  margin-bottom: 0vw;
+}
+
+.P_pedido_especial {
+  text-decoration: underline;
+  color: black;
+  padding-left: 3vw;
+  margin-top: 0vw;
+  font-size: 7vw;
+  color: black;
+}
+
+.icono_PedidoEspecial {
+  color: #0f657b;
+  text-decoration: underline;
+  text-decoration-color: #0f657b;
+  font-size: 7vw;
+}
+
+.subcontenedor_pedido {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  font-size: 4.5vw;
+}
+
+.P_Ordenalo {
+  padding-left: 3vw;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.p_Ordenalo_Text {
+  font-size: 7vw;
+}
+
+.icon_ordenalo {
+  color: #0f657b;
+  font-size: 7vw;
+}
+
+.precio {
+  color: #c20000;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-size: 10vw;
+  padding-left: 3vw;
+}
+
+.contenedor_boton_carrito {
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  display: flex;
+  gap: 5vw;
+  justify-content: left;
+  padding-left: 3vw;
+}
+
+.contenedor_cantidad_carrito {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  color: white;
+}
+
+.boton_carrito {
+  background-color: #c20000;
+  color: white;
+  display: flex;
+  gap: 2vw;
+  border-radius: 4vw;
+  font-size: 6vw;
+  padding: 0vw 7vw;
+  border: none;
+}
+
+.boton_cantidad_carrito {
+  all: unset;
+  font-size: 6vw;
+  background-color: #c20000;
+  border-radius: 5vw;
+  padding: 0.1vw 2.5vw;
+}
+
+.cantidad_carrito {
+  font-size: 5vw;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*CARACTERISTICAS*/
+.contenedor_caracteristicas {
+  font-size: 7vw;
+  font-family: "Alumni Sans", sans-serif;
+  padding-left: 3vw;
+  color: black;
+  margin-bottom: 5vw;
+}
+
+.hr_caracteristicas {
+  margin-top: 0vw;
+  margin-bottom: 3vw;
+}
+
+.Caracteristicas_Nombre {
+  text-align: center;
+  font-size: 10vw;
+  color: black;
+}
+
+/*IMAGENES SECUNDARIAS Y PRINCIPAL*/
+.col-1-seleccion-gaming {
+  display: flex;
+  gap: 2vw;
+}
+
+.div_mini_imagenes_gaming {
+  margin-left: 1.5vw;
+  display: flex;
+  height: 70vw;
+  overflow-x: scroll;
+}
+
+.mini_img_seleccion_gaming {
+  margin-bottom: 2vw;
+}
+
+.img_principal_seleccion_gaming {
+  display: none;
+}
+
+/*768 hasta 820 - IPAD*/
+@media (min-width: 768px) and (max-width: 820px) {
+  /*CARACTERISTICAS*/
+  .contenedor_caracteristicas {
+    font-size: 7vw;
+    color: black;
+  }
+
+  .hr_caracteristicas {
+    width: 100vw;
+    margin-top: 0vw;
+    margin-bottom: 3vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .icono_desplazar_img {
+    font-size: 2.5vw;
+  }
+  .Colum_img {
+    margin-left: 2vw;
+    margin-top: 2vw;
+    display: flex;
+  }
+
+  .row_principal {
+    display: flex;
+    gap: 1.5vw;
+  }
+
+  /*NOMBRE PRODUCTO*/
+  .Nombre_Producto {
+    font-size: 3.5vw;
+    padding-top: 0vw;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  .hr_Nombre_Producto {
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+  }
+
+  .contenedor_condiciones {
+    margin-top: 0vw;
+    gap: 2vw;
+    padding-left: 0vw;
+    font-size: 2vw;
+  }
+
+  .Cantidad {
+    display: block;
+  }
+
+  /*Pedido Especial - Añadir a la Lista*/
+  .contenedor_condiciones p {
+    margin-bottom: 0vw;
+  }
+
+  .P_pedido_especial {
+    padding-left: 0vw;
+    font-size: 2vw;
+  }
+
+  .icono_PedidoEspecial {
+    font-size: 2vw;
+  }
+
+  .subcontenedor_pedido {
+    gap: 0.5vw;
+    font-size: 2vw;
+  }
+
+  .P_Ordenalo {
+    padding-left: 0vw;
+    font-size: 2vw;
+  }
+
+  .p_Ordenalo_Text {
+    font-size: 2vw;
+  }
+
+  .icon_ordenalo {
+    color: #0f657b;
+    font-size: 2vw;
+  }
+
+  .precio {
+    font-weight: 500;
+    text-align: justify;
+    font-size: 4vw;
+    padding-left: 0vw;
+  }
+
+  .contenedor_boton_carrito {
+    margin-top: 1vw;
+    padding-left: 0vw;
+    gap: 2vw;
+    justify-content: left;
+    margin-bottom: 0vw;
+  }
+
+  .contenedor_cantidad_carrito {
+    display: flex;
+    gap: 1vw;
+  }
+
+  .boton_carrito {
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    gap: 1vw;
+    padding: 0vw 3vw;
+  }
+
+  .boton_cantidad_carrito {
+    all: unset;
+    font-size: 1.8vw;
+    background-color: #c20000;
+    color: white;
+    border-radius: 1vw;
+    padding: 0.1vw 1vw;
+  }
+
+  .cantidad_carrito {
+    font-size: 2vw;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  /*CARACTERISTICAS*/
+  .contenedor_caracteristicas2 {
+    margin-top: 0vw;
+    background-color: aliceblue;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+    border-radius: 2vw;
+    filter: drop-shadow(0vw 0.4vw 2px rgba(0, 0, 0, 0.29));
+    text-align: center;
+    padding-bottom: 0vw;
+  }
+
+  .contenedor_caracteristicas {
+    font-size: 2vw;
+    padding-left: 3vw;
+    margin-bottom: 0vw;
+  }
+
+  .hr_caracteristicas {
+    display: block;
+    border: 0.1vw solid black;
+    margin: 0 auto;
+  }
+
+  .Caracteristicas_Nombre {
+    font-size: 2.5vw;
+    color: black;
+    text-align: center;
+  }
+
+  /* IMAGENES */
+
+  .col-1-seleccion-gaming {
+    display: flex;
+    gap: 2vw;
+    width: max-content;
+    height: min-content;
+  }
+
+  .identificacion_producto {
+    margin-top: 0vw;
+    width: max-content;
+    margin-left: 0vw;
+    padding-left: 0vw;
+  }
+
+  .img_principal_seleccion_gaming {
+    display: inline-flex;
+    width: 30vw;
+    height: 26.5vw;
+  }
+
+  .div_mini_imagenes_gaming {
+    margin-left: 4vw;
+    width: 12%;
+    height: min-content;
+    flex-direction: column;
+    gap: 0.1vw;
+    align-items: center;
+    overflow-x: unset;
+  }
+
+  .mini_img_seleccion_gaming {
+    margin-bottom: 2vw;
+    height: 5vw;
+  }
+
+  .mini_img_seleccion_gaming:hover {
+    box-shadow: 0vw 0.1vw 0.1vw #0f657b;
+  }
+
+  .img_principal_seleccion_gaming:hover {
+    box-shadow: 0vw 0.1vw 0.1vw #0f657b;
+  }
+
+  /*BOTONES*/
+  .boton_carrito:hover {
+    background-color: #0f657b;
+  }
+
+  .boton_cantidad_carrito:hover {
+    background-color: #0f657b;
+  }
+}
