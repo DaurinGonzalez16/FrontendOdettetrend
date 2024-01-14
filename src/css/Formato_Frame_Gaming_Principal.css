@@ -57,7 +57,7 @@ main {
 
 /*Main 1 - Zona Tecnologica*/
 .section1_maingaming {
-  background-image: url("/src/Img/img_Frame_Zona_Gaming/ZonaGamer.webp");
+  background-image: url("/img_Frame_Zona_Gaming/ZonaGamer.webp");
   height: 24vw;
   background-repeat: no-repeat;
   background-size: cover;

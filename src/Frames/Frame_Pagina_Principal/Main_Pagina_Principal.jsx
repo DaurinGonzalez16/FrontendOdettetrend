@@ -96,7 +96,7 @@ export default function Main() {
             <div className="col-md-auto section2_col section2_col2">
               <div className="titulo2">
                 <img
-                  src="/src/Img/Img_Frame_Principal/Icon_TM.webp"
+                  src="/Img_Frame_Principal/Icon_TM.webp"
                   className="img_tm"
                   alt=""
                 />
