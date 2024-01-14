@@ -123,23 +123,23 @@ function MainRopa() {
 
       <section className="row section3_ropa">
         <GeneradorSection3
-          img="\src\Img\img_Frame_Ropa\Imagenes_Frame_4\Ninos.webp"
+          img="\img_Frame_Ropa\Imagenes_Frame_4\Ninos.webp"
           type="NIÑOS"
         />
         <GeneradorSection3
-          img="\src\Img\img_Frame_Ropa\Imagenes_Frame_4\Pantalones.webp"
+          img="\img_Frame_Ropa\Imagenes_Frame_4\Pantalones.webp"
           type="PANTALONES"
         />
         <GeneradorSection3
-          img="\src\Img\img_Frame_Ropa\Imagenes_Frame_4\Sudadera.webp"
+          img="\img_Frame_Ropa\Imagenes_Frame_4\Sudadera.webp"
           type="SUDADERAS"
         />
         <GeneradorSection3
-          img="\src\Img\img_Frame_Ropa\Imagenes_Frame_4\Calzados.webp"
+          img="\img_Frame_Ropa\Imagenes_Frame_4\Calzados.webp"
           type="CALZADOS"
         />
         <GeneradorSection3
-          img="\src\Img\img_Frame_Ropa\Imagenes_Frame_4\Deportiva.webp"
+          img="\img_Frame_Ropa\Imagenes_Frame_4\Deportiva.webp"
           type="DEPORTIVA"
         />
       </section>
