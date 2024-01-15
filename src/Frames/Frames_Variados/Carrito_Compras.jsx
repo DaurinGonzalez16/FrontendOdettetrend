@@ -175,6 +175,8 @@ export function Carrito_Compra() {
         nav2_gaming="nav2_display"
         botoncolor="botonbuscar_nav"
         icon_nav="icon_nav_color"
+        buscador_header="BuscadorHeader_Carrito"
+        Navbar_Variados="Navbar_Header_Carrito"
       />
       <Nav2 />
       <main>
@@ -343,17 +345,17 @@ export function Carrito_Compra() {
               <h2 className="h2_aceptamos_carrito">ACEPTAMOS</h2>
               <div className="div_img_aceptamos_carrito">
                 <img
-                  src="src\Img\img_Frame_Aceptamos\imagen_visa.webp"
+                  src="\img_Frame_Aceptamos\imagen_visa.webp"
                   alt="imagen_visa"
                   className="img-fluid"
                 />
                 <img
-                  src="src\Img\img_Frame_Aceptamos\imagen_paypal.webp"
+                  src="\img_Frame_Aceptamos\imagen_paypal.webp"
                   alt="imagen_paypal"
                   className="img-fluid"
                 />
                 <img
-                  src="src\Img\img_Frame_Aceptamos\imagen_mastercad.webp"
+                  src="\img_Frame_Aceptamos\imagen_mastercad.webp"
                   alt="imagen_mastercad"
                   className="img-fluid"
                 />

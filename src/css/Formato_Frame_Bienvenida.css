@@ -103,6 +103,10 @@ main {
   margin-bottom: 5vw;
 }
 
+.BuscadorHeader_Bienvenido {
+  display: none;
+}
+
 @media (min-width: 912px) {
   .div_bienvenido_1 {
     display: flex;
@@ -189,5 +193,12 @@ main {
   .div_boton_desconectarse {
     margin-bottom: 0.1vw;
     margin: 0 auto;
+  }
+
+  .Bienvenidos_Navbar {
+    margin-left: 20vw;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
   }
 }

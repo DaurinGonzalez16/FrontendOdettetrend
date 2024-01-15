@@ -71,6 +71,8 @@ export function Registro() {
         nav2_gaming="nav2_display"
         botoncolor="botonbuscar_nav"
         icon_nav="icon_nav_color"
+        buscador_header="Buscador_header_Registro"
+        Navbar_Variados="Navbar_Registro"
       />
       <Nav2 />
 

@@ -12,6 +12,8 @@ export function HeaderGaming({
   icon_nav,
   autocompletado_ropa,
   busqueda,
+  buscador_header,
+  Navbar_Variados,
 }) {
   const [search, setSearch] = useState("");
 
@@ -49,7 +51,9 @@ export function HeaderGaming({
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav navbar-nav2 me-auto mb-2 mb-lg-0">
+              <ul
+                className={`navbar-nav navbar-nav2 ${Navbar_Variados} me-auto mb-2 mb-lg-0`}
+              >
                 <li className="nav-item">
                   <Link
                     className="nav-link nav-linkFrame2 "
@@ -83,7 +87,10 @@ export function HeaderGaming({
                 </li>
               </ul>
 
-              <form className="d-flex" onSubmit={handleSearchSubmit}>
+              <form
+                className={`form_header_gaming ${buscador_header} `}
+                onSubmit={handleSearchSubmit}
+              >
                 <input
                   className="form-control me-2"
                   list="names"

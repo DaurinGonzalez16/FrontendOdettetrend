@@ -3,6 +3,10 @@
   display: none;
 }
 
+.form_header_gaming {
+  display: flex;
+}
+
 /*MAIN GENERAL*/
 main {
   margin-top: 7vw;
@@ -349,7 +353,7 @@ main {
 
   .navbar-nav2 {
     margin-left: 10vw;
-    gap: 2vw;
+    gap: 5vw;
     justify-content: center;
     align-items: center;
   }

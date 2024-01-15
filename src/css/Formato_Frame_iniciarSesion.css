@@ -6,6 +6,10 @@
   color: #ca3838;
 }
 
+.Buscador_header_Registro {
+  display: none;
+}
+
 .p_mensaje_listo {
   font-size: 5vw;
   text-align: center;
@@ -178,5 +182,12 @@
     font-size: 2vw;
     text-align: center;
     margin-bottom: 2vw;
+  }
+
+  .Navbar_Registro {
+    margin-left: 20vw;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
   }
 }

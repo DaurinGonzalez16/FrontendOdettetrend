@@ -54,6 +54,8 @@ export function BienvenidosFrame() {
         nav2_gaming="nav2_display"
         botoncolor="botonbuscar_nav"
         icon_nav="icon_nav_color"
+        buscador_header="BuscadorHeader_Bienvenido"
+        Navbar_Variados="Bienvenidos_Navbar"
       />
       <Nav2 />
       <main className="container">

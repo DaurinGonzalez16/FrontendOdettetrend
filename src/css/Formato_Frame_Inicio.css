@@ -788,13 +788,6 @@ footer h2 {
     gap: 0.5vw;
   }
 
-  .section_nav2 {
-    display: flex;
-    gap: 63vw;
-    font-family: "Alumni Sans", sans-serif;
-    font-size: 1.6vw;
-  }
-
   .section_nav3 {
     display: flex;
     gap: 0.8vw;
@@ -839,5 +832,12 @@ footer h2 {
   }
   .div_descargar_aplicacion a:hover {
     text-decoration: underline white;
+  }
+
+  .section_nav2 {
+    display: flex;
+    gap: 62vw;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 1.6vw;
   }
 }

@@ -3,6 +3,10 @@ main {
   color: black;
 }
 
+.BuscadorHeader_Carrito {
+  display: none;
+}
+
 .h2_nombre_carrito {
   font-size: 7vw;
   text-align: center;
@@ -227,5 +231,12 @@ main {
 
   .div_img_aceptamos_carrito img {
     width: 7vw;
+  }
+
+  .Navbar_Header_Carrito {
+    margin-left: 20vw;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
   }
 }
