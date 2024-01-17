@@ -218,10 +218,10 @@ export function FrameSeleccion_Ropa() {
                 </p>
                 Añadir al Carrito
               </button>
-              {mensajeCarrito && (
-                <p className="mensaje_carrito">{mensajeCarrito}</p>
-              )}
             </div>
+            {mensajeCarrito && (
+              <p className="mensaje_carrito">{mensajeCarrito}</p>
+            )}
           </article>
         </section>
       </main>

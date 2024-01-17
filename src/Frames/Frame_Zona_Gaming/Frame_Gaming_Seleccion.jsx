@@ -43,7 +43,7 @@ function MainSelecion() {
   const { id } = useParams();
   const [producto, setProducto] = useState({});
   const [imagenPrincipal, setImagenPrincipal] = useState("");
-
+  const [mensajeCarrito, setMensajeCarrito] = useState("");
   const [cantidadCarrito, setCantidadCarrito] = useState(1);
 
   useEffect(() => {
@@ -73,11 +73,10 @@ function MainSelecion() {
         config
       );
 
-      alert(
-        `Se agregaron ${cantidadCarrito} ${
-          cantidadCarrito > 1 ? "productos" : "producto"
-        } al carrito.`
-      );
+      const mensaje = `Se agregaron ${cantidadCarrito} ${
+        cantidadCarrito > 1 ? "productos" : "producto"
+      } al carrito.`;
+      setMensajeCarrito(mensaje);
     } catch (error) {
       console.error("Error al agregar producto al carrito:", error);
     }
@@ -212,6 +211,9 @@ function MainSelecion() {
               Añadir al Carrito
             </button>
           </div>
+          {mensajeCarrito && (
+            <p className="mensaje_carrito">{mensajeCarrito}</p>
+          )}
         </article>
 
         {/* COLUMNA DE CARATERISTICAS */}
