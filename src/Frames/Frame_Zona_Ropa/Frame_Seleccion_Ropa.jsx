@@ -18,6 +18,7 @@ export function FrameSeleccion_Ropa() {
   const [autocompletadoRopa, setAutocompletadoRopa] = useState([]);
   const URLDATOS = `https://backend-odette-trend.vercel.app/Moda/CardModaid/${id}`;
   const URLROPA = `https://backend-odette-trend.vercel.app/Moda/CardModaName/name`;
+  const [mensajeCarrito, setMensajeCarrito] = useState("");
 
   const cantidadMaxima = producto.stock;
 
@@ -61,11 +62,11 @@ export function FrameSeleccion_Ropa() {
         config
       );
 
-      alert(
-        `Se agregaron ${cantidadCarrito} ${
-          cantidadCarrito > 1 ? "productos" : "producto"
-        } al carrito.`
-      );
+      const mensaje = `Se agregaron ${cantidadCarrito} ${
+        cantidadCarrito > 1 ? "productos" : "producto"
+      } al carrito.`;
+
+      setMensajeCarrito(mensaje);
     } catch (error) {
       console.error("Error al agregar producto al carrito:", error);
     }
@@ -217,6 +218,9 @@ export function FrameSeleccion_Ropa() {
                 </p>
                 Añadir al Carrito
               </button>
+              {mensajeCarrito && (
+                <p className="mensaje_carrito">{mensajeCarrito}</p>
+              )}
             </div>
           </article>
         </section>
