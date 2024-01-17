@@ -19,6 +19,7 @@ export function Carrito_Compra() {
   const URLCONSEGUIRCARRITO = `https://backend-odette-trend.vercel.app/Carrito/ConseguirCarrito/${user_id}`;
   const URLCONSEGUIRCARRITOROPA = `https://backend-odette-trend.vercel.app/Carrito/ConseguirCarritoModa/${user_id}`;
   const precioTotalTotal = precioTotalGaming + precioTotalModa;
+  const [mensajeCarrito, setMensaje] = useState("");
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -158,10 +159,9 @@ export function Carrito_Compra() {
       await axios.delete(
         `https://backend-odette-trend.vercel.app/Carrito/RemoverTodoCarritoModa/${user_id}`
       );
-
       ConseguirCarritoGaming(URLCONSEGUIRCARRITO);
       ConseguirCarritoModa(URLCONSEGUIRCARRITOROPA);
-      alert("GRACIAS POR SU COMPRA DE " + precioTotalTotal + " USD");
+      setMensaje("GRACIAS POR SU COMPRA DE " + precioTotalTotal + " USD");
     } catch (error) {
       console.error("Error al eliminar el carrito:", error);
     }
@@ -339,6 +339,9 @@ export function Carrito_Compra() {
                   COMPRAR AHORA
                 </button>
               </div>
+              {mensajeCarrito && (
+                <p className="mensaje_carrito_compraTotal">{mensajeCarrito}</p>
+              )}
             </article>
 
             <article className="contenedor_Aceptamos_carrito">

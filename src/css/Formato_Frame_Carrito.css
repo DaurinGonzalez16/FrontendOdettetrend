@@ -120,6 +120,18 @@ main {
   gap: 2vw;
 }
 
+.mensaje_carrito_compraTotal {
+  text-align: center;
+  font-size: 5vw;
+  text-decoration: underline;
+  color: #b22334;
+  font-weight: bold;
+}
+
+.contenedor_principal_carrito_compras {
+  margin: 0vw 2vw;
+}
+
 @media (min-width: 280px) {
   .div_img_aceptamos_carrito img {
     width: 20vw;
@@ -238,5 +250,10 @@ main {
     gap: 5vw;
     justify-content: center;
     align-items: center;
+  }
+
+  .mensaje_carrito_compraTotal {
+    text-align: center;
+    font-size: 1.8vw;
   }
 }

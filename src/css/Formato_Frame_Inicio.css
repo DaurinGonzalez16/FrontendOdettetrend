@@ -109,7 +109,6 @@
   width: 5vw;
 }
 
-/* MAIN */
 /* PRIMER MAIN */
 .col_row_1 {
   display: flex;
@@ -307,6 +306,7 @@
   gap: 1vw;
   align-items: center;
   background-color: #ca3838;
+  margin-right: 0vw;
 }
 
 footer {

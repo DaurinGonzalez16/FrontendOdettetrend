@@ -1,3 +1,7 @@
+.row {
+  margin: 0 auto;
+}
+
 /*DIV OCULTOS*/
 .MasVendidoPC {
   display: none;
@@ -66,30 +70,22 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 6vw;
+  margin-right: 0vw;
 }
 
 .contenedor_img {
-  position: relative;
-  left: 16vw;
-  top: 0.2vw;
   color: white;
   font-weight: bold;
   font-size: 7.2vw;
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 6vw;
-}
-
-.icon_img_zonaGaming {
-  font-size: 7vw;
-  background-color: none;
-  opacity: 0.9;
-  cursor: pointer;
 }
 
 .span_zona_tecnologia {
   padding: 0vw 12vw;
   border-radius: 1.5vw;
+  background-color: #009dbd4f;
 }
 
 /*Main 2 - OFERTAS - Cartas*/
@@ -133,6 +129,8 @@ main {
 .desplazarofertas {
   display: inline-flex;
   flex-wrap: unset;
+  padding-right: 3vw;
+  margin-top: 5vw;
 }
 
 .desplazar2 {
@@ -484,5 +482,11 @@ main {
 
   .BackgroundFooter {
     padding: 0vw;
+  }
+
+  .desplazarofertas {
+    padding-right: 1vw;
+    margin-top: 3vw;
+    margin-bottom: 0vw;
   }
 }

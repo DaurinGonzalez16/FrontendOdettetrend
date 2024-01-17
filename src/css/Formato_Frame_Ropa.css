@@ -1,3 +1,7 @@
+.row {
+  margin: 0 auto;
+}
+
 /*BOTON BUSCAR*/
 .BackColor {
   background-color: beige;
@@ -42,14 +46,14 @@
 
 .section_p {
   background-image: url("/img_Frame_Ropa/ImagenModa.webp");
+  margin-bottom: 5vw;
 }
 
 .Contenedor_1 {
   gap: 9vw;
-  margin-top: -1vw;
   margin-bottom: 0vw;
   align-items: center;
-  margin-left: 2vw;
+  margin-right: 0vw;
 }
 
 .span_moda_2 {
@@ -65,8 +69,9 @@
   gap: 2vw;
   flex-wrap: nowrap;
   overflow-x: scroll;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-right: 0vw;
 }
 
 .contenedor_main1_ropa img {

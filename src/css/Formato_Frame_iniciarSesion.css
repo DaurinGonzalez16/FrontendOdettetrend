@@ -27,20 +27,22 @@
 .text_input {
   margin-left: 2vw;
   border: 0.1vw solid #ca3838;
-  width: 95vw;
+  width: 90vw;
 }
 
 .botoncontinuar {
   font-family: "Alumni Sans", sans-serif;
   font-size: 5.5vw;
   font-weight: bolder;
-  width: 100%;
+  width: 96%;
   border: none;
   margin-top: 5vw;
   padding: 1vw;
   background-color: #ca3838;
   color: white;
   text-transform: uppercase;
+  margin-bottom: 5vw;
+  margin-left: 1.9vw;
 }
 
 .botoncontinuargoogle,
