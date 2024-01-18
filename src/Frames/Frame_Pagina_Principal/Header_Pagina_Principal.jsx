@@ -38,7 +38,7 @@ function Header() {
                   <Link
                     className="nav-link"
                     aria-current="page"
-                    to={"/IniciarSesion"}
+                    to={"/Registro"}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
