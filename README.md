@@ -1,8 +1,15 @@
-# React + Vite
+<h1>🌐 Descubre Odettetrend: Tu E-commerce de Moda y Tecnología</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Descripcion del Proyecto(Frontend)</h2>
 
-Currently, two official plugins are available:
+<p>Construido con React.js y Bootstrap, Odettetrend ofrece una experiencia de compra moderna y atractiva. Explora las últimas tendencias en moda y tecnología con un diseño responsivo y funcionalidades intuitivas.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>Tecnologias Utilizadas</h2>
+<ul>
+<li>React.js</li>
+<li>Bootstrap</li>
+</ul>
+
+<h2>Alojamiento de la pagina</h2>
+<p><a href="https://grand-sopapillas-57134f.netlify.app/"> IR A ODETTETREND</a></p>
+
