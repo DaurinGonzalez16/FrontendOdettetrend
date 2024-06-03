@@ -1,3 +1,5 @@
+<img src='https://i.imgur.com/KJNdGeL.png'></img>
+
 <h1>🌐 Descubre Odettetrend: Tu E-commerce de Moda y Tecnología</h1>
 
 <h2>Descripcion del Proyecto(Frontend)</h2>
