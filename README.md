@@ -13,5 +13,5 @@
 </ul>
 
 <h2>Alojamiento de la pagina</h2>
-<p><a href="https://odettetrend.netlify.app/"> IR A ODETTETREND</a></p>
+<p><a href="https://routetocode.netlify.app/"> IR A ROUTE TO CODE</a></p>
 
